@@ -1,0 +1,22 @@
+{
+    "name": "sysint/module-backend",
+    "description": "",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "email": "ev@sysint.net",
+            "name": "Sysint"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sysint\\Backend\\": ""
+        }
+    }
+}

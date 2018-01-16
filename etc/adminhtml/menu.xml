@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sysint_Backend::sysint" 
+             title="SYSINT" 
+             module="Sysint_Backend" 
+             sortOrder="500"
+             resource="Magento_Backend::content"/>
+        
+        <add id="Sysint_Backend::store" 
+             title="More extensions" 
+             module="Sysint_Backend" 
+             sortOrder="1000"
+             parent="Sysint_Backend::sysint" 
+             resource="Magento_Backend::content"/>
+        
+        <add id="Sysint_Backend::store_link" 
+             title="Go to our store" 
+             module="Sysint_Backend" 
+             sortOrder="10"
+             action="sysint/store/link"
+             parent="Sysint_Backend::store" 
+             resource="Magento_Backend::content"/>
+    </menu>
+</config>

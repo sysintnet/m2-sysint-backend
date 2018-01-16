@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/system_file.xsd">
+    <system>
+        <tab id="sysint" class="sysint-tab" translate="label" sortOrder="500">
+            <label>Sysint</label>
+        </tab>
+    </system>
+</config>
